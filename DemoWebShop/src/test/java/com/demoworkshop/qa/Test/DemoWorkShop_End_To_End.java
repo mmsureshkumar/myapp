@@ -62,6 +62,7 @@ public class DemoWorkShop_End_To_End extends TestBase {
 	  DemoWorkShop_HomePage.DemoWorkShop_Homepage_IsDisplayed("Tricentis Demo Web Shop");
   }
   
+  
   @Test(priority=3, testName="TC003_SelectBooks_From_BooksPage")
   public void TC003_SelectBooks_From_BooksPage() {
 	  extentTest = extentRep.startTest("TC003_SelectBooks_From_BooksPage"); 
