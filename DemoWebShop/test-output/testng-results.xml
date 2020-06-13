@@ -143,47 +143,47 @@
       <![CDATA[Clicking Confrim Order]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="61063" started-at="2020-06-13T17:05:47Z" finished-at="2020-06-13T17:06:48Z">
+  <suite name="TestNG_Suite_For_EndToEndTesting" duration-ms="58458" started-at="2020-06-13T18:53:42Z" finished-at="2020-06-13T18:54:41Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="61063" started-at="2020-06-13T17:05:47Z" finished-at="2020-06-13T17:06:48Z">
+    <test name="DemoWorkShop_End_To_End" duration-ms="58458" started-at="2020-06-13T18:53:42Z" finished-at="2020-06-13T18:54:41Z">
       <class name="com.demoworkshop.qa.Test.DemoWorkShop_End_To_End">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@13eb8acf]" name="beforeSuite" is-config="true" duration-ms="3027" started-at="2020-06-13T22:35:44Z" finished-at="2020-06-13T22:35:47Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@51c8530f]" name="beforeSuite" is-config="true" duration-ms="2834" started-at="2020-06-14T00:23:39Z" finished-at="2020-06-14T00:23:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@13eb8acf]" name="beforeTest" is-config="true" duration-ms="0" started-at="2020-06-13T22:35:47Z" finished-at="2020-06-13T22:35:47Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@51c8530f]" name="beforeTest" is-config="true" duration-ms="0" started-at="2020-06-14T00:23:42Z" finished-at="2020-06-14T00:23:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@13eb8acf]" name="beforeClass" is-config="true" duration-ms="4" started-at="2020-06-13T22:35:47Z" finished-at="2020-06-13T22:35:47Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@51c8530f]" name="beforeClass" is-config="true" duration-ms="4" started-at="2020-06-14T00:23:42Z" finished-at="2020-06-14T00:23:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="TC001_LoginToDemoWebshop()[pri:1, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@13eb8acf]" name="TC001_LoginToDemoWebshop" duration-ms="4884" started-at="2020-06-13T22:35:47Z" finished-at="2020-06-13T22:35:52Z">
+        <test-method status="PASS" signature="TC001_LoginToDemoWebshop()[pri:1, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@51c8530f]" name="TC001_LoginToDemoWebshop" duration-ms="4662" started-at="2020-06-14T00:23:42Z" finished-at="2020-06-14T00:23:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC001_LoginToDemoWebshop -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@13eb8acf]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-13T22:35:47Z" finished-at="2020-06-13T22:35:47Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@51c8530f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-14T00:23:42Z" finished-at="2020-06-14T00:23:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@13eb8acf]" name="getResult" is-config="true" duration-ms="348" started-at="2020-06-13T22:35:52Z" finished-at="2020-06-13T22:35:52Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@51c8530f]" name="getResult" is-config="true" duration-ms="370" started-at="2020-06-14T00:23:47Z" finished-at="2020-06-14T00:23:47Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC001_LoginToDemoWebshop status=SUCCESS method=DemoWorkShop_End_To_End.TC001_LoginToDemoWebshop()[pri:1, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@13eb8acf] output={null}]]]>
+                <![CDATA[[TestResult name=TC001_LoginToDemoWebshop status=SUCCESS method=DemoWorkShop_End_To_End.TC001_LoginToDemoWebshop()[pri:1, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@51c8530f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@13eb8acf]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-13T22:35:52Z" finished-at="2020-06-13T22:35:52Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@51c8530f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-14T00:23:47Z" finished-at="2020-06-14T00:23:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TC002_Verify_Demowebshop_Homepage_IsDisplayed()[pri:2, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@13eb8acf]" name="TC002_Verify_Demowebshop_Homepage_IsDisplayed" duration-ms="1254" started-at="2020-06-13T22:35:52Z" finished-at="2020-06-13T22:35:53Z">
+        <test-method status="PASS" signature="TC002_Verify_Demowebshop_Homepage_IsDisplayed()[pri:2, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@51c8530f]" name="TC002_Verify_Demowebshop_Homepage_IsDisplayed" duration-ms="552" started-at="2020-06-14T00:23:47Z" finished-at="2020-06-14T00:23:48Z">
           <reporter-output>
             <line>
               <![CDATA[Verifying the home page is displayed]]>
@@ -193,44 +193,44 @@
             </line>
           </reporter-output>
         </test-method> <!-- TC002_Verify_Demowebshop_Homepage_IsDisplayed -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@13eb8acf]" name="getResult" is-config="true" duration-ms="47" started-at="2020-06-13T22:35:53Z" finished-at="2020-06-13T22:35:53Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@51c8530f]" name="getResult" is-config="true" duration-ms="43" started-at="2020-06-14T00:23:48Z" finished-at="2020-06-14T00:23:48Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC002_Verify_Demowebshop_Homepage_IsDisplayed status=SUCCESS method=DemoWorkShop_End_To_End.TC002_Verify_Demowebshop_Homepage_IsDisplayed()[pri:2, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@13eb8acf] output=Verifying the home page is displayed]]]>
+                <![CDATA[[TestResult name=TC002_Verify_Demowebshop_Homepage_IsDisplayed status=SUCCESS method=DemoWorkShop_End_To_End.TC002_Verify_Demowebshop_Homepage_IsDisplayed()[pri:2, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@51c8530f] output=Verifying the home page is displayed]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@13eb8acf]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-06-13T22:35:53Z" finished-at="2020-06-13T22:35:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TC003_SelectBooks_From_BooksPage()[pri:3, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@13eb8acf]" name="TC003_SelectBooks_From_BooksPage" duration-ms="5925" started-at="2020-06-13T22:35:53Z" finished-at="2020-06-13T22:35:59Z">
+        <test-method status="PASS" signature="TC003_SelectBooks_From_BooksPage()[pri:3, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@51c8530f]" name="TC003_SelectBooks_From_BooksPage" duration-ms="4197" started-at="2020-06-14T00:23:48Z" finished-at="2020-06-14T00:23:52Z">
           <reporter-output>
             <line>
               <![CDATA[Click on image of Health Book]]>
             </line>
           </reporter-output>
         </test-method> <!-- TC003_SelectBooks_From_BooksPage -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@13eb8acf]" name="getResult" is-config="true" duration-ms="39" started-at="2020-06-13T22:35:59Z" finished-at="2020-06-13T22:35:59Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@51c8530f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-14T00:23:48Z" finished-at="2020-06-14T00:23:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@51c8530f]" name="getResult" is-config="true" duration-ms="34" started-at="2020-06-14T00:23:52Z" finished-at="2020-06-14T00:23:52Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC003_SelectBooks_From_BooksPage status=SUCCESS method=DemoWorkShop_End_To_End.TC003_SelectBooks_From_BooksPage()[pri:3, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@13eb8acf] output=Click on image of Health Book]]]>
+                <![CDATA[[TestResult name=TC003_SelectBooks_From_BooksPage status=SUCCESS method=DemoWorkShop_End_To_End.TC003_SelectBooks_From_BooksPage()[pri:3, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@51c8530f] output=Click on image of Health Book]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@13eb8acf]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-13T22:35:59Z" finished-at="2020-06-13T22:35:59Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@51c8530f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-14T00:23:52Z" finished-at="2020-06-14T00:23:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TC004_SelectDesktops_From_ComputersPage()[pri:4, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@13eb8acf]" name="TC004_SelectDesktops_From_ComputersPage" duration-ms="10940" started-at="2020-06-13T22:35:59Z" finished-at="2020-06-13T22:36:10Z">
+        <test-method status="PASS" signature="TC004_SelectDesktops_From_ComputersPage()[pri:4, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@51c8530f]" name="TC004_SelectDesktops_From_ComputersPage" duration-ms="10849" started-at="2020-06-14T00:23:52Z" finished-at="2020-06-14T00:24:03Z">
           <reporter-output>
             <line>
               <![CDATA[Verifying the computers page is displayed]]>
@@ -267,22 +267,18 @@
             </line>
           </reporter-output>
         </test-method> <!-- TC004_SelectDesktops_From_ComputersPage -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@13eb8acf]" name="getResult" is-config="true" duration-ms="41" started-at="2020-06-13T22:36:10Z" finished-at="2020-06-13T22:36:10Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@51c8530f]" name="getResult" is-config="true" duration-ms="38" started-at="2020-06-14T00:24:03Z" finished-at="2020-06-14T00:24:03Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC004_SelectDesktops_From_ComputersPage status=SUCCESS method=DemoWorkShop_End_To_End.TC004_SelectDesktops_From_ComputersPage()[pri:4, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@13eb8acf] output=Verifying the computers page is displayed]]]>
+                <![CDATA[[TestResult name=TC004_SelectDesktops_From_ComputersPage status=SUCCESS method=DemoWorkShop_End_To_End.TC004_SelectDesktops_From_ComputersPage()[pri:4, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@51c8530f] output=Verifying the computers page is displayed]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@13eb8acf]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-06-13T22:36:10Z" finished-at="2020-06-13T22:36:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TC005_SelectJewelry_From_JewelryPage()[pri:5, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@13eb8acf]" name="TC005_SelectJewelry_From_JewelryPage" duration-ms="7724" started-at="2020-06-13T22:36:10Z" finished-at="2020-06-13T22:36:18Z">
+        <test-method status="PASS" signature="TC005_SelectJewelry_From_JewelryPage()[pri:5, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@51c8530f]" name="TC005_SelectJewelry_From_JewelryPage" duration-ms="6229" started-at="2020-06-14T00:24:03Z" finished-at="2020-06-14T00:24:09Z">
           <reporter-output>
             <line>
               <![CDATA[Selecting Jewelry from demo webshop]]>
@@ -310,22 +306,26 @@
             </line>
           </reporter-output>
         </test-method> <!-- TC005_SelectJewelry_From_JewelryPage -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@13eb8acf]" name="getResult" is-config="true" duration-ms="35" started-at="2020-06-13T22:36:18Z" finished-at="2020-06-13T22:36:18Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@51c8530f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-14T00:24:03Z" finished-at="2020-06-14T00:24:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@51c8530f]" name="getResult" is-config="true" duration-ms="40" started-at="2020-06-14T00:24:09Z" finished-at="2020-06-14T00:24:09Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC005_SelectJewelry_From_JewelryPage status=SUCCESS method=DemoWorkShop_End_To_End.TC005_SelectJewelry_From_JewelryPage()[pri:5, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@13eb8acf] output=Selecting Jewelry from demo webshop]]]>
+                <![CDATA[[TestResult name=TC005_SelectJewelry_From_JewelryPage status=SUCCESS method=DemoWorkShop_End_To_End.TC005_SelectJewelry_From_JewelryPage()[pri:5, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@51c8530f] output=Selecting Jewelry from demo webshop]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@13eb8acf]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-13T22:36:18Z" finished-at="2020-06-13T22:36:18Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@51c8530f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-14T00:24:09Z" finished-at="2020-06-14T00:24:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TC006_SelectGiftCard_From_GiftCardPage()[pri:6, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@13eb8acf]" name="TC006_SelectGiftCard_From_GiftCardPage" duration-ms="11321" started-at="2020-06-13T22:36:18Z" finished-at="2020-06-13T22:36:29Z">
+        <test-method status="PASS" signature="TC006_SelectGiftCard_From_GiftCardPage()[pri:6, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@51c8530f]" name="TC006_SelectGiftCard_From_GiftCardPage" duration-ms="11774" started-at="2020-06-14T00:24:09Z" finished-at="2020-06-14T00:24:21Z">
           <reporter-output>
             <line>
               <![CDATA[Cliking gift Cards]]>
@@ -365,18 +365,18 @@
             </line>
           </reporter-output>
         </test-method> <!-- TC006_SelectGiftCard_From_GiftCardPage -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@13eb8acf]" name="getResult" is-config="true" duration-ms="24" started-at="2020-06-13T22:36:29Z" finished-at="2020-06-13T22:36:29Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@51c8530f]" name="getResult" is-config="true" duration-ms="30" started-at="2020-06-14T00:24:21Z" finished-at="2020-06-14T00:24:21Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC006_SelectGiftCard_From_GiftCardPage status=SUCCESS method=DemoWorkShop_End_To_End.TC006_SelectGiftCard_From_GiftCardPage()[pri:6, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@13eb8acf] output=Cliking gift Cards]]]>
+                <![CDATA[[TestResult name=TC006_SelectGiftCard_From_GiftCardPage status=SUCCESS method=DemoWorkShop_End_To_End.TC006_SelectGiftCard_From_GiftCardPage()[pri:6, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@51c8530f] output=Cliking gift Cards]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="TC007_SelectShippingCart_From_DemoWebShop()[pri:7, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@13eb8acf]" name="TC007_SelectShippingCart_From_DemoWebShop" duration-ms="18340" started-at="2020-06-13T22:36:29Z" finished-at="2020-06-13T22:36:48Z">
+        <test-method status="PASS" signature="TC007_SelectShippingCart_From_DemoWebShop()[pri:7, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@51c8530f]" name="TC007_SelectShippingCart_From_DemoWebShop" duration-ms="19503" started-at="2020-06-14T00:24:21Z" finished-at="2020-06-14T00:24:40Z">
           <reporter-output>
             <line>
               <![CDATA[Clicking Shipping cart]]>
@@ -419,34 +419,34 @@
             </line>
           </reporter-output>
         </test-method> <!-- TC007_SelectShippingCart_From_DemoWebShop -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@13eb8acf]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-13T22:36:29Z" finished-at="2020-06-13T22:36:29Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@51c8530f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-14T00:24:21Z" finished-at="2020-06-14T00:24:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@13eb8acf]" name="getResult" is-config="true" duration-ms="30" started-at="2020-06-13T22:36:48Z" finished-at="2020-06-13T22:36:48Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@51c8530f]" name="getResult" is-config="true" duration-ms="30" started-at="2020-06-14T00:24:40Z" finished-at="2020-06-14T00:24:40Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC007_SelectShippingCart_From_DemoWebShop status=SUCCESS method=DemoWorkShop_End_To_End.TC007_SelectShippingCart_From_DemoWebShop()[pri:7, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@13eb8acf] output=Clicking Shipping cart]]]>
+                <![CDATA[[TestResult name=TC007_SelectShippingCart_From_DemoWebShop status=SUCCESS method=DemoWorkShop_End_To_End.TC007_SelectShippingCart_From_DemoWebShop()[pri:7, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@51c8530f] output=Clicking Shipping cart]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="AfterClass()[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@13eb8acf]" name="AfterClass" is-config="true" duration-ms="0" started-at="2020-06-13T22:36:48Z" finished-at="2020-06-13T22:36:48Z">
+        <test-method status="PASS" signature="AfterClass()[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@51c8530f]" name="AfterClass" is-config="true" duration-ms="0" started-at="2020-06-14T00:24:40Z" finished-at="2020-06-14T00:24:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@13eb8acf]" name="afterTest" is-config="true" duration-ms="74" started-at="2020-06-13T22:36:48Z" finished-at="2020-06-13T22:36:48Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@51c8530f]" name="afterTest" is-config="true" duration-ms="72" started-at="2020-06-14T00:24:40Z" finished-at="2020-06-14T00:24:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@13eb8acf]" name="afterSuite" is-config="true" duration-ms="1214" started-at="2020-06-13T22:36:48Z" finished-at="2020-06-13T22:36:49Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@51c8530f]" name="afterSuite" is-config="true" duration-ms="857" started-at="2020-06-14T00:24:41Z" finished-at="2020-06-14T00:24:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- com.demoworkshop.qa.Test.DemoWorkShop_End_To_End -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- DemoWorkShop_End_To_End -->
+  </suite> <!-- TestNG_Suite_For_EndToEndTesting -->
 </testng-results>
