@@ -13,7 +13,11 @@ import org.testng.annotations.Test;
 
 import com.demoworkshop.qa.TestBase;
 import com.demoworkshop.qa.pages.DemoWorkShop_Books;
+import com.demoworkshop.qa.pages.DemoWorkShop_Computers;
+import com.demoworkshop.qa.pages.DemoWorkShop_Gift_Cards;
 import com.demoworkshop.qa.pages.DemoWorkShop_HomePage;
+import com.demoworkshop.qa.pages.DemoWorkShop_Jewelry;
+import com.demoworkshop.qa.pages.DemoWorkShop_ShoppingCart;
 import com.demoworkshop.qa.pages.DemoWorkShop_SignIn;
 import com.demoworkshop.util.DemoWorkShop_Listener;
 import com.relevantcodes.extentreports.LogStatus;
@@ -24,6 +28,10 @@ public class DemoWorkShop_End_To_End extends TestBase {
 	DemoWorkShop_HomePage DemoWorkShop_HomePage;
 	DemoWorkShop_SignIn DemoWorkShop_SignIn;
 	DemoWorkShop_Books DemoWorkShop_Books;
+	DemoWorkShop_Computers Demo_WorkShop_Computers;
+	DemoWorkShop_Jewelry DemoWorkShop_Jewelry;
+	DemoWorkShop_Gift_Cards Demo_WorkShop_Gift_Cards;
+	DemoWorkShop_ShoppingCart Demo_WorkShop_Shipping_Cart;
 	
 	@BeforeSuite
 	public void beforeSuite() {
@@ -33,6 +41,10 @@ public class DemoWorkShop_End_To_End extends TestBase {
 				DemoWorkShop_SignIn = new DemoWorkShop_SignIn();
 				DemoWorkShop_HomePage = new DemoWorkShop_HomePage();
 				DemoWorkShop_Books = new DemoWorkShop_Books();
+				Demo_WorkShop_Computers = new DemoWorkShop_Computers();
+				DemoWorkShop_Jewelry = new DemoWorkShop_Jewelry();
+				Demo_WorkShop_Gift_Cards = new DemoWorkShop_Gift_Cards();
+				Demo_WorkShop_Shipping_Cart= new DemoWorkShop_ShoppingCart();
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
@@ -68,6 +80,30 @@ public class DemoWorkShop_End_To_End extends TestBase {
 	  extentTest = extentRep.startTest("TC003_SelectBooks_From_BooksPage"); 
 	  DemoWorkShop_Books.DemoWorkShop_AddBooks_To_ShoppingCart();
 
+  }
+  
+  @Test(priority=4, testName="TC004_SelectDesktops_From_ComputersPage")
+  public void TC004_SelectDesktops_From_ComputersPage() throws InterruptedException {
+	  extentTest = extentRep.startTest("TC004_SelectDesktops_From_ComputersPage"); 
+	  Demo_WorkShop_Computers.Computers("Computers");	  	  
+  }
+  
+  @Test(priority=5, testName="TC005_SelectJewelry_From_JewelryPage")
+  public void TC005_SelectJewelry_From_JewelryPage() throws InterruptedException {
+	  extentTest = extentRep.startTest("TC005_SelectJewelry_From_JewelryPage"); 
+	  DemoWorkShop_Jewelry.Jewelry("Jewelry");
+  }
+  
+  @Test(priority=6, testName="TC006_SelectGiftCard_From_GiftCardPage")
+  public void TC006_SelectGiftCard_From_GiftCardPage() throws InterruptedException {
+	  extentTest = extentRep.startTest("TC006_SelectGiftCard_From_GiftCardPage"); 
+	  Demo_WorkShop_Gift_Cards.clicking_Gift_Card("Gift Cards");
+  }
+  
+  @Test(priority=7, testName="TC007_SelectShippingCart_From_DemoWebShop")
+  public void TC007_SelectShippingCart_From_DemoWebShop() throws InterruptedException {
+	  extentTest = extentRep.startTest("TC007_SelectShippingCart_From_DemoWebShop"); 
+	  Demo_WorkShop_Shipping_Cart.Clicking_Shopping_Cart();
   }
   
 

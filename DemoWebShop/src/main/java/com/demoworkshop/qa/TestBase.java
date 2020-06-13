@@ -173,6 +173,13 @@ public static final Logger log = Logger.getLogger(TestBase.class.getName());
 		
 	}
 	
+	public void Select_Value_From_Dropdown_By_Index(WebElement objSelectDropdown, int Index) {
+		
+		Select dropdown = new Select(objSelectDropdown);
+		dropdown.selectByIndex(Index);
+		
+	}
+	
 	public void log(String data) {
 		log.info(data);
 		extentTest.log(LogStatus.INFO,data);  //Extent report

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name= "TestNG_Suite_For_EndToEndTesting" >
+  <listeners>
+  	<listener class-name="com.demoworkshop.util.DemoWorkShop_Listener" />
+  	<listener class-name="com.demoworkshop.util.WebEventListener" />
+  </listeners>
+  <test name="DemoWorkShop_End_To_End">
+  	<classes>
+  		<class name="com.demoworkshop.qa.Test.Demo_Webshop_End_To_End" />
+  	</classes>
+  </test> <!-- Test_End_to_End -->
+</suite> <!-- TestNgSuite -->
